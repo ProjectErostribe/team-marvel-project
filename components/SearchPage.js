@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { WP_GET } from './WPAPI';
 import { checkPasswordStrength } from './Password';
-import { NavigationContext } from 'react-navigation';
+
 
 export default function SignUp({ navigation }) {
     const [userData, setUserData] = useState([]);
